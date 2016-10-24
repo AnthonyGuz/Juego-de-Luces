@@ -29,6 +29,9 @@ delay(500);
 luces2();
 delay(500);
 }
+
+//Primer Juego de Luces
+
 void luces (){
   for (contador=0;contador<=6; contador++){
   digitalWrite(led[contador], HIGH);
@@ -47,6 +50,9 @@ for (contador=6;contador>=0;contador--){
   }
 }
 }
+
+//Segundo Juego De Luces
+
 void luces1 (){
   for (contador=0;contador<=13;contador++){
   digitalWrite(led[contador], HIGH);
@@ -62,6 +68,9 @@ void luces1 (){
 
   }
 }
+
+//Tercer Juego de Luces
+
 void luces2(){
   for(contador=0;contador<14;contador++){
   digitalWrite(led[contador],HIGH);
